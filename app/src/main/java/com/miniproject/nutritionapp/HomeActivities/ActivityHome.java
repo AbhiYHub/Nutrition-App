@@ -53,7 +53,6 @@ public class ActivityHome extends AppCompatActivity implements Keys {
         bmi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(ActivityHome.this, "BMI", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(ActivityHome.this, BMICalculate.class));
             }
         });
@@ -75,10 +74,16 @@ public class ActivityHome extends AppCompatActivity implements Keys {
         mChat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ActivityChat.class);
-                intent.putExtra(USER_CHATROOMID,chatroomId);
-                intent.putExtra(MESSAGE_RUSERID,ADMIN_ID);
-                startActivity(intent);
+
+                if(userId.equals(ADMIN_ID)) {
+                    Intent intent = new Intent(getApplicationContext(),ActivityAdminChat.class);
+                    startActivity(intent);
+                }else{
+                    Intent intent = new Intent(getApplicationContext(), ActivityChat.class);
+                    intent.putExtra(USER_CHATROOMID, chatroomId);
+                    intent.putExtra(MESSAGE_RUSERID, ADMIN_ID);
+                    startActivity(intent);
+                }
             }
         });
 

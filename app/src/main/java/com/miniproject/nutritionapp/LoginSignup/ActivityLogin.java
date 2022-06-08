@@ -114,11 +114,7 @@ public class ActivityLogin extends AppCompatActivity {
                                             boolean s = ds.getBoolean(Keys.USER_PRDONE);
                                             Intent intent;
                                             if (s) {
-                                                if (ADMIN_ID.equals(userId)){
-                                                    intent = new Intent(getApplicationContext(), ActivityAdminChat.class);
-                                                } else {
-                                                    intent = new Intent(getApplicationContext(), ActivityHome.class);
-                                                }
+                                                intent = new Intent(getApplicationContext(), ActivityHome.class);
                                             } else {
                                                 intent = new Intent(getApplicationContext(), ActivityPostRegistration.class);
                                             }
