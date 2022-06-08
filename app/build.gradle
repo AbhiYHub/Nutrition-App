@@ -44,6 +44,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore:24.1.1'
     implementation 'com.google.firebase:firebase-storage:20.0.1'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.github.sujithkanna:smileyrating:2.0.0'
 
 
     implementation('me.fahmisdk6.avatarview:avatarview:1.0@aar') {

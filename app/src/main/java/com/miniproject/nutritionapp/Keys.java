@@ -29,6 +29,9 @@ public interface Keys {
       String MESSAGE_RUSERNAME = "rname";
       String MESSAGE_TIME = "time";
 
+      String FEEDBACK_COLLECTION = "feedbacks";
+      String FEEDBACK = "feedback";
+
       String ADMIN_ID = "bjPY34L1KfcN1FJmE8bFtPkklnH3";
 
 }

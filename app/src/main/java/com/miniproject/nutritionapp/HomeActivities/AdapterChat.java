@@ -1,4 +1,4 @@
-package com.miniproject.nutritionapp;
+package com.miniproject.nutritionapp.HomeActivities;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.miniproject.nutritionapp.R;
 
 import java.util.List;
 

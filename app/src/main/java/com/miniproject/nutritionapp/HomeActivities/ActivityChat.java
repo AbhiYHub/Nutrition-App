@@ -1,4 +1,4 @@
-package com.miniproject.nutritionapp;
+package com.miniproject.nutritionapp.HomeActivities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -26,6 +26,8 @@ import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.QuerySnapshot;
+import com.miniproject.nutritionapp.Keys;
+import com.miniproject.nutritionapp.R;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -33,9 +35,8 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
-public class ActivityChat extends AppCompatActivity implements Keys{
+public class ActivityChat extends AppCompatActivity implements Keys {
 
     RecyclerView recyclerView;
     AdapterChat adapter;

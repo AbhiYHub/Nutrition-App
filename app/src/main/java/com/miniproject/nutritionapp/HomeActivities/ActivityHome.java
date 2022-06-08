@@ -6,7 +6,6 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,7 +15,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.miniproject.nutritionapp.AdminActivities.ActivityAdminChat;
-import com.miniproject.nutritionapp.ActivityChat;
 import com.miniproject.nutritionapp.Keys;
 import com.miniproject.nutritionapp.R;
 
@@ -67,7 +65,7 @@ public class ActivityHome extends AppCompatActivity implements Keys {
         feedback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(ActivityHome.this, "Feedback", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(ActivityHome.this, ActivityFeedback.class));
             }
         });
 
@@ -75,15 +73,15 @@ public class ActivityHome extends AppCompatActivity implements Keys {
             @Override
             public void onClick(View view) {
 
-                if(userId.equals(ADMIN_ID)) {
-                    Intent intent = new Intent(getApplicationContext(),ActivityAdminChat.class);
-                    startActivity(intent);
-                }else{
-                    Intent intent = new Intent(getApplicationContext(), ActivityChat.class);
+                Intent intent;
+                if (userId.equals(ADMIN_ID)) {
+                    intent = new Intent(getApplicationContext(), ActivityAdminChat.class);
+                } else {
+                    intent = new Intent(getApplicationContext(), ActivityChat.class);
                     intent.putExtra(USER_CHATROOMID, chatroomId);
                     intent.putExtra(MESSAGE_RUSERID, ADMIN_ID);
-                    startActivity(intent);
                 }
+                startActivity(intent);
             }
         });
 

@@ -1,4 +1,4 @@
-package com.miniproject.nutritionapp;
+package com.miniproject.nutritionapp.HomeActivities;
 
 public class ModelMessage {
 

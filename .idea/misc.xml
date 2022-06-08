@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/layout/activity_bmicalculate.xml" value="0.176" />
-        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/layout/activity_bmiresult.xml" value="0.22285714285714286" />
-        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/layout/activity_chat.xml" value="0.25" />
-        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/layout/activity_home.xml" value="0.176" />
-        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Android Development/NutritionApp/app/src/main/res/drawable/feedback_bg.xml" value="0.179" />
+        <entry key="..\:/Android Development/NutritionApp/app/src/main/res/drawable/feedback_card_bg.xml" value="0.179" />
+        <entry key="..\:/Android Development/NutritionApp/app/src/main/res/drawable/shape_allradius.xml" value="0.179" />
+        <entry key="..\:/Android Development/NutritionApp/app/src/main/res/layout/activity_authentication.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android Development/NutritionApp/app/src/main/res/layout/activity_bmiresult.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android Development/NutritionApp/app/src/main/res/layout/activity_feedback.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android Development/NutritionApp/app/src/main/res/layout/activity_home.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android Development/NutritionApp/app/src/main/res/layout/activity_login.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/yadav/OneDrive/Desktop/NutritionApp/app/src/main/res/drawable/chat.xml" value="0.1715" />
         <entry key="..\:/Users/yadav/OneDrive/Desktop/NutritionApp/app/src/main/res/layout/activity_bmicalculate.xml" value="0.24427083333333333" />
         <entry key="..\:/Users/yadav/OneDrive/Desktop/NutritionApp/app/src/main/res/layout/activity_bmiresult.xml" value="0.24427083333333333" />
