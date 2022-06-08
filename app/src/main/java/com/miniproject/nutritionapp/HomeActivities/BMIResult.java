@@ -7,16 +7,20 @@ import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.android.material.appbar.MaterialToolbar;
 import com.miniproject.nutritionapp.R;
 
 public class BMIResult extends AppCompatActivity {
 
     android.widget.Button mViewDietPlan;
+
+    MaterialToolbar toolbar;
 
     TextView mResultBMI, mResultGender, mResultCategory;
     ImageView mResultImage;
@@ -32,6 +36,8 @@ public class BMIResult extends AppCompatActivity {
 
         //bind all the views
         initiateWithID();
+
+        setupToolbar();
 
         intent = getIntent();
 
@@ -125,5 +131,25 @@ public class BMIResult extends AppCompatActivity {
         mResultCategory = findViewById(R.id.result_category);
         mResultImage = findViewById(R.id.result_img);
         mBackground = findViewById(R.id.contentLayout);
+
+        toolbar = findViewById(R.id.toolbar_mbires);
     }
+
+    private void setupToolbar(){
+        if (getSupportActionBar()==null){
+            setSupportActionBar(toolbar);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+        }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+
 }
