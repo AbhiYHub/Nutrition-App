@@ -138,6 +138,7 @@ public class BMIResult extends AppCompatActivity {
     private void setupToolbar(){
         if (getSupportActionBar()==null){
             setSupportActionBar(toolbar);
+            toolbar.setTitle("");
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
         }

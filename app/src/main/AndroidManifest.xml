@@ -11,7 +11,14 @@
         android:theme="@style/Theme.NutritionApp">
         <activity
             android:name=".ActivityProfile"
-            android:exported="true" />
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".HomeActivities.BMIResult"
             android:exported="false" />
@@ -30,11 +37,7 @@
         <activity
             android:name=".ActivitySplash"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".HomeActivities.ActivityHome"

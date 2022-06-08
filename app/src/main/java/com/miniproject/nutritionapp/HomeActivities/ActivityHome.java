@@ -15,6 +15,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.miniproject.nutritionapp.ActivityProfile;
 import com.miniproject.nutritionapp.AdminActivities.ActivityAdminChat;
 import com.miniproject.nutritionapp.ActivityChat;
 import com.miniproject.nutritionapp.Keys;
@@ -46,7 +47,7 @@ public class ActivityHome extends AppCompatActivity implements Keys {
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(ActivityHome.this, "Profile", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(ActivityHome.this, ActivityProfile.class));
             }
         });
 

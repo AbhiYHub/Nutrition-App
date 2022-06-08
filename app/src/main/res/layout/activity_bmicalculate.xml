@@ -9,13 +9,14 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-            android:background="@color/white"
-            >
+        android:background="@color/white"
+        app:elevation="0dp"
+        >
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar_calbmi"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:title="BMI Calculator"
+            app:title=" "
             />
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -34,6 +35,14 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BMI Calculator"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
 
         <RelativeLayout
             android:id="@+id/male"
