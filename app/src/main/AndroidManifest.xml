@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NutritionApp">
         <activity
+            android:name=".ActivityProfile"
+            android:exported="true" />
+        <activity
             android:name=".HomeActivities.BMIResult"
             android:exported="false" />
         <activity
