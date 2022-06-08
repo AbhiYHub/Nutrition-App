@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Android Development/NutritionApp/app/src/main/res/drawable/feedback_bg.xml" value="0.179" />
         <entry key="..\:/Android Development/NutritionApp/app/src/main/res/drawable/feedback_card_bg.xml" value="0.179" />
         <entry key="..\:/Android Development/NutritionApp/app/src/main/res/drawable/shape_allradius.xml" value="0.179" />
@@ -11,6 +12,22 @@
         <entry key="..\:/Android Development/NutritionApp/app/src/main/res/layout/activity_feedback.xml" value="0.25833333333333336" />
         <entry key="..\:/Android Development/NutritionApp/app/src/main/res/layout/activity_home.xml" value="0.25833333333333336" />
         <entry key="..\:/Android Development/NutritionApp/app/src/main/res/layout/activity_login.xml" value="0.25833333333333336" />
+=======
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/drawable/card_bg.xml" value="0.15092592592592594" />
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/drawable/shape_allradius.xml" value="0.15092592592592594" />
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/drawable/shape_bordergradient.xml" value="0.15092592592592594" />
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/drawable/shape_circle.xml" value="0.15092592592592594" />
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/drawable/shape_edittext.xml" value="0.14322916666666666" />
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/drawable/shape_profile_card.xml" value="0.15092592592592594" />
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/drawable/shape_shadow.xml" value="0.14322916666666666" />
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/drawable/view_bg.xml" value="0.14322916666666666" />
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/layout/activity_bmicalculate.xml" value="0.176" />
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/layout/activity_bmiresult.xml" value="0.176" />
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/layout/activity_home.xml" value="0.176" />
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Android Projects Downloaded/Nutrition-App/app/src/main/res/layout/activity_profile.xml" value="0.152" />
+>>>>>>> 1ac3c846da0ce060143efe1208b0755f20f6fd01
         <entry key="..\:/Users/yadav/OneDrive/Desktop/NutritionApp/app/src/main/res/drawable/chat.xml" value="0.1715" />
         <entry key="..\:/Users/yadav/OneDrive/Desktop/NutritionApp/app/src/main/res/layout/activity_bmicalculate.xml" value="0.24427083333333333" />
         <entry key="..\:/Users/yadav/OneDrive/Desktop/NutritionApp/app/src/main/res/layout/activity_bmiresult.xml" value="0.24427083333333333" />

@@ -15,6 +15,7 @@
         <activity
             android:name=".HomeActivities.ActivityProfile"
             android:exported="true" />
+
         <activity
             android:name=".HomeActivities.BMIResult"
             android:exported="false" />
